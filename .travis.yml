@@ -1,5 +1,5 @@
-before_script:
-- ls
+#before_script:
+#- ls
 language: java
 jdk:
 - oraclejdk8
