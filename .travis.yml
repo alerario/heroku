@@ -1,5 +1,4 @@
 before_script:
-#- cd DelmeMaven/
 - ls
 language: java
 jdk:
