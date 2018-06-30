@@ -4,13 +4,11 @@ language: java
 jdk:
 - oraclejdk8
 script: mvn clean verify -DskipTests=false -DskipITs=false -DskipSTs=false
-deploy:
-  provider: heroku
-  api_key:
-    secure: cxREcKngjbgTSWEgwcTN/Q0s6p66wacR30fbTfyW0rkY3YnJj4KVErJXx32ai+Mr7Z6mSl5VcohmwI9U+o7wF6qb9MmFpK3JJoBNKgMABYD94oAkZ4226UgTdZgdulM6Ts7i8jjOHUk3gwb+e+ThCcmKrhzbQ+ptxBv9PlPQsIE9t2FS0ylC6zKhZpRIrxJtqozN3RvGDDbRo6NMEtP4dc9ovPAkqsWACYcE+2IEv9woSEqJKEOR0Hh2jc6Z4hskBwvutxMkPHSCUF4k0KbcSsSgLzngcHGuXWWHo5/vLzoe8dIn3/W1wj/pJ8kz3kHfZQ6WD8m8Vzjh5xBfAA38YEx6U35/KGJYjN3adKc50q9dK1GMESLv8g9VGI9aVPShL1THq3m3Pal9b+RP59HWl4+vKWN0/+PVSugtSCnv1c0OjlqvHVXeV9iGMdnPo19nu0mWs0S5/lEILD3k4PO5u+t5wVfzWM1GSWo1BgjFbem6xRYMB7RQICfki0HJEZtxE5uVcVMvP0lKK8beRffr1465Y0/hqHKwACzGQ+SIP6CEutQDIqaqTl28XwON2gLeo7pcUiskSmUcchmL95UdopuQUqThvBsvWQC82tKSldA+tnVjDZlADPemEeHtwTmAPjgyxjpdvhY428UrG7XpiKXAZPdiVFSFAumcZG/XjyY=
- app: heroku
-  on:
-    repo: alerario/heroku
-    branch: master
-
-
+#deploy:
+#  provider: heroku
+#  api_key:
+#    secure: cxREcKngjbgTSWEgwcTN/Q0s6p66wacR30fbTfyW0rkY3YnJj4KVErJXx32ai+Mr7Z6mSl5VcohmwI9U+o7wF6qb9MmFpK3JJoBNKgMABYD94oAkZ4226UgTdZgdulM6Ts7i8jjOHUk3gwb+e+ThCcmKrhzbQ+ptxBv9PlPQsIE9t2FS0ylC6zKhZpRIrxJtqozN3RvGDDbRo6NMEtP4dc9ovPAkqsWACYcE+2IEv9woSEqJKEOR0Hh2jc6Z4hskBwvutxMkPHSCUF4k0KbcSsSgLzngcHGuXWWHo5/vLzoe8dIn3/W1wj/pJ8kz3kHfZQ6WD8m8Vzjh5xBfAA38YEx6U35/KGJYjN3adKc50q9dK1GMESLv8g9VGI9aVPShL1THq3m3Pal9b+RP59HWl4+vKWN0/+PVSugtSCnv1c0OjlqvHVXeV9iGMdnPo19nu0mWs0S5/lEILD3k4PO5u+t5wVfzWM1GSWo1BgjFbem6xRYMB7RQICfki0HJEZtxE5uVcVMvP0lKK8beRffr1465Y0/hqHKwACzGQ+SIP6CEutQDIqaqTl28XwON2gLeo7pcUiskSmUcchmL95UdopuQUqThvBsvWQC82tKSldA+tnVjDZlADPemEeHtwTmAPjgyxjpdvhY428UrG7XpiKXAZPdiVFSFAumcZG/XjyY=
+# app: heroku
+#  on:
+#    repo: alerario/heroku
+#    branch: master
