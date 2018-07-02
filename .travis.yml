@@ -1,14 +1,11 @@
-#before_script:
-#- ls
 language: java
 jdk:
 - oraclejdk8
 script: mvn clean verify -DskipTests=false -DskipITs=false -DskipSTs=false
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: cxREcKngjbgTSWEgwcTN/Q0s6p66wacR30fbTfyW0rkY3YnJj4KVErJXx32ai+Mr7Z6mSl5VcohmwI9U+o7wF6qb9MmFpK3JJoBNKgMABYD94oAkZ4226UgTdZgdulM6Ts7i8jjOHUk3gwb+e+ThCcmKrhzbQ+ptxBv9PlPQsIE9t2FS0ylC6zKhZpRIrxJtqozN3RvGDDbRo6NMEtP4dc9ovPAkqsWACYcE+2IEv9woSEqJKEOR0Hh2jc6Z4hskBwvutxMkPHSCUF4k0KbcSsSgLzngcHGuXWWHo5/vLzoe8dIn3/W1wj/pJ8kz3kHfZQ6WD8m8Vzjh5xBfAA38YEx6U35/KGJYjN3adKc50q9dK1GMESLv8g9VGI9aVPShL1THq3m3Pal9b+RP59HWl4+vKWN0/+PVSugtSCnv1c0OjlqvHVXeV9iGMdnPo19nu0mWs0S5/lEILD3k4PO5u+t5wVfzWM1GSWo1BgjFbem6xRYMB7RQICfki0HJEZtxE5uVcVMvP0lKK8beRffr1465Y0/hqHKwACzGQ+SIP6CEutQDIqaqTl28XwON2gLeo7pcUiskSmUcchmL95UdopuQUqThvBsvWQC82tKSldA+tnVjDZlADPemEeHtwTmAPjgyxjpdvhY428UrG7XpiKXAZPdiVFSFAumcZG/XjyY=
-# app: heroku
-#  on:
-#    repo: alerario/heroku
-#    branch: master
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y9fl7sCyy6VS7g6Ca/aLd07KU/k7sJGcDX2iRzq1aQle3SEH2SPwhRcDRc7TS+BN+3cX7IsSYNph8zRTqsF6HmbNM5NMt2Em04knjOB2kaycVz5LjAwg8JtBKRtsFzMjB5G7/h+zan8EZtp+YMm4QMnU1ZzBl5x9+PvqU/12ebgq/R0EnpvgphIpZovjEaKFAvyw3/Hx6K7OsYToJURlgpoy89xTqRAXN3Gl6Dm2QiK/gmOe/PZBgpz9LOIj5MdLr9jHT8zNPO2PlSRMKJwocblmY6DFu3JonQbpS9uZqKKuOVQtQHZ49dns8cfkDiupEObcOL17Bd/YW1GcXUZZXZ3mWCpVDkXvSDeefOtrWYRCmDwGznjUSVS1fChB2l5L6BG7QCJo02wZhiql6kft786xU08dWj5kx5Yk+h9EmyV/6Kiptea/7ASsuwVscEEYnaglBxm+hxVcETu9N2D9j3d7JaCkrd+Iv8t0z14jwgGdr1PU6k1T4FodQTgskaJYR6Scfe2kBf/3iaWp83euIS+3Jrka4nCZu9FZ1E6mP4u6QpNSKrwQKU6eLfGuiVtOjQC3B6G+usU0SGG8rokh6TZfuj5Q1dztoxv4VLoMfbKP8Gdqre88OBs0loRlZmJA2Hjc/SWLMdOwQ/gO0KMcD7T17BYriX5WkiPs4xj3OAU=
+  app: heroku
+  on:
+    repo: alerario/heroku
