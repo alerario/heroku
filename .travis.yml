@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: tHRcf5GH0sVB1lGwmh2f3BhoF+TWdsdzScaubx+B54gdjFvTh5Za8CrAFUhTjEcFUjOWQmhN5/gnHTOn0dZ7eyFrm91i9ppdATgPilvObUqNSJxlkRYASyM8jGzDAYl1Ng33CzzwNbG4qGt40ag/sHlyoqvWRksUB6yBk6+EuqrMdK9+7KJFH46CPAoXXtBzyBqIXbNBlVTn3OyfdNkHhDdZNUAYtwVsIiNoHPo9XSCbagsNCe0knNakMxsiZBdxZYzjXKC7SV02E1nKnRYVfBvMvvBQxtXxZFu3GecyCl/QBl+o/XGGPqqc+gQCSufNgwBEjK9NjgRF/4zzGzYFEf+mEd5W9yhuczf7QgDPsC2+HukBpXiSShxlDozVE15qE2dB6I1D15JrsLdNwWw0VN8TcQL+I5WBDOInw+5GPIfv5oIbNnXEYrcXEfBmF4q24xuKn+Lz/6zahKOy5kRSSgAkJYkjlg38wcHAL7RgbD6+J5YJL0r9sl+euB6uzxMyyZE/HzEvn7Z59XBMNoS7O0H4ftACU/bUCvroRasUa3AuwxcFbjED1DTt8YNTWorciT2f1NdSwqZp12Px3gJ5/Ce6sY3w6jUG0/CVPyzDUQhxI9r7BWKAvwydF/RTuwunLJmivTzo0cJkSRqvHMevYD7DQhZTUJzRAJEacwimvX4=
-  app: heroku
+  app: jsfheroku
   on:
     repo: alerario/heroku
