@@ -1,0 +1,19 @@
+sudo apt-get upgrade
+sudo apt-get install ruby  
+sudo apt-get install ruby-dev
+sudo apt-get install make
+sudo apt-get install gcc
+sudo gem install travis
+
+sudo apt-get install git
+git clone http://www.github.com/alerario/heroku
+  
+   45  cd heroku/ (diretorio do projeto)
+   
+   57  heroku login
+  
+   59  travis setup heroku --force (--force se a api_key for gerada incorretamente)
+   
+   62  git commit -m "gerada a chave, apos heroku login"
+   63  git push
+  
